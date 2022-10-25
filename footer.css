@@ -1,0 +1,83 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.39);
+    height: 300px;
+    width: 100%;
+}
+.fo1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    text-align: justify;
+}
+ul li a{
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+}
+ul li{
+    list-style: none;
+}
+.navigation ul li a{
+    font-size: 22px;
+    color: whitesmoke;
+    text-align: start;
+}
+.members ul li {
+    font-size: 22px;
+    padding: 3px;
+    line-height: 25px;
+    color: whitesmoke;
+}
+.location a{
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 22px;
+    /* font-weight: bold; */
+    margin-right: 8px;
+    color: whitesmoke;
+}
+.location h3{
+     margin-right: 20px;
+    font-size: 20px;
+    /* color: whitesmoke; */
+}
+.folow ul li a{
+    color: whitesmoke;
+    text-align: center;
+    padding: 4px;
+}
+.icons .icon{
+    color: red;
+    padding: 4px;
+    /* margin-right: 90px; */
+}
+.icons{
+    margin-right: 20px;
+    
+}
+.folow h3{
+    padding-left: 20px;
+}
+.footer P{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 18px;
+}

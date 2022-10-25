@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+.hero{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.left-col{
+    flex-basis: 30%;
+    height: 500px;
+    background-color: #e80;
+    
+}
+.right-col{
+    flex-basis: 65%;
+    /* height: 100%; */
+    background:darkcyan ;
+}
+.form label :placeholder-shown{
+    padding-left: 15px;
+}
+.left-col img{
+    width: 80%;
+    justify-content: center;
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 60px;
+    border-radius: 20px;
+}
+.left-col h1{
+    line-height: 35px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.right-col h1{
+    text-align: center;
+}
+.f1{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.f3{
+    display: flex;
+    padding-top: 15px;
+    
+    /* justify-content: space-evenly; */
+    /* grid-template-columns: 120px 80px 80px 80px ;
+    column-gap: 100px; */
+  
+}
+.f7 input{
+    width: 85px;
+   
+}
+.f7{
+    margin-left: 20px;
+}
+.f6{
+    margin-left:20px ;
+}
+.f6 input{
+    width: 85px;
+}
+.f5{
+    margin-left: 20px;
+}
+.f5 input{
+    width:85px ;
+    
+}
+.f3 input{
+    height: 30px;
+}
+.f1 input{
+    height: 30px;
+    width: 300px;
+   
+}
+.f4 input {
+    width: 300px;
+}
+.form{
+    margin-left: 50px;
+}
+.f1 .f2{
+    margin-left: 30px;
+}
+.phone input {
+    width: 76%;
+    height: 30px;
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 50px;
+
+
+
+}
+.btn button{
+    width: 77%;
+    height: 35px;
+    background-color: hsl(60, 100%, 50%);
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 18px;
+}

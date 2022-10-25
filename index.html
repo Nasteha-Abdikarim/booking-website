@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="reveiw.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="hotel.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="booknow.css">
+  
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+</head>
+<body>
+
+
+
+    <section class="home" id="home">
+        <div class="head-container">
+            <div class="box">
+                
+                <div class="header"> 
+
+                    <div class="nav">
+
+
+
+
+                        <div class="he1">
+                            <div class="he1-image"><img src="./images/logo.png" >         </div>
+                       
+                          <h5>BOOKING</h5>
+
+                        </div>
+
+
+                        <div class="he2">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="hotels.html">Hotels</a></li>
+                                <li><a href="reveiw.html">Reveiw</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                               
+                            </ul>
+
+                            <div class="bbutn1"><a href="booknow.html" class="ancor"> <button> Book Now</button> </a></div>
+                        </div>
+
+
+
+
+
+
+
+
+
+                    </div>
+                   <!-- <div class="he1"> <h4>nasteha</h4></div>
+                   <div class="he2"> <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                   </ul></div>
+                        
+                </div>
+                   -->
+                  
+            
+
+                <div class="text">
+                    <h1>Booking Company</h1>
+                    <p>Consectetur adipisicing elit, sed<br>
+                     do eiusmod tempor incididunt ut labore<br>
+                      et dolore magnaaliqua. Ut enim ad<br>
+                       minim veniam, quis nostrud exercitation <br>
+                       ullamco laboris nisi ut aliquip ex<br>
+						commodo consequat.
+                        
+                    </p>
+                    <button class="bon">more info</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="./images/of2.jpeg" alt="" class="slide" >
+            </div>
+            <div class="image-item">
+                <img src="./images/of2.jpeg" alt="" class="slide active" onclick="image('/images/of2.jpeg')">
+                <img src="./images/ba1.jpeg" alt="" class="slide " onclick="image('/images/ba1.jpeg')">
+                <img src="./images/ba4.jpeg" alt="" class="slide " onclick="image('/images/ba4.jpeg')">
+                <img src="./images/ba2.jpeg"  alt="" class="slide " onclick="image('/images/ba2.jpeg')" >
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function image (anything) {
+            document .querySelector('.slide').src = anything;
+        }
+
+        function change(change) { 
+            const line = document.querySelector('.image')
+            line. style .background =change;
+        }
+    </script>
+<!-- ------------------------------end--------------------- -->
+
+
+
+     <section class="down" id="down">
+        <div class="down-container">
+            <div class="anbuts">
+          
+            <div class="inp">
+                <label > Country</label>
+                <input type="text" placeholder="Mogadisho.Somalia"></div>
+
+            <!-- <div class="inp"> 
+                <label>Check-in: </label> <br>
+                 <input type="date" placeholder="Check-in-Date"></div>
+
+            <div class="inp"> 
+                <label>Check-out: </label> <br>
+                 <input type="date" placeholder="Check-out-Date"></div> -->
+
+                 <div class="inp"> 
+                    <label>Clender </label> 
+                     <input type="date" value="20-10-2022"></div>
+
+
+
+                 <div class="inp"> 
+                    <label>Adults: </label> 
+                     <input type="number" placeholder="0"></div>
+
+                     
+                 <div class="inp"> 
+                    <label>Children: </label>
+                     <input type="number" placeholder="0"></div>
+
+        
+        </div>
+        <div class="search">  <input type="submit   " placeholder="search"></div>
+            
+          
+      
+        
+
+        </div>
+     </section>
+
+
+    <!-- ------------------------------end--------------------- -->
+
+
+<section class="main" id="main">
+    
+    <div class="main-yar"><h2> HOTEL RESIDENCES</h2><br>
+        <P>At home while on the road</P></div> 
+
+    <div class="about">
+     
+        <div class="ab1">
+            <img src="./images/image1.jpeg" >
+        </div>
+        <div class="ab1">
+            <h4>Presidential Suit</h4><br>
+            <p>Newly refurnished luxury accommodation with finest quilty linen & 
+                quality decor. Air conditioning Electric Blankets. Ironing Boarders, mini bar, flat screen
+                &Free inhouse movies, wife and houskeeping by request
+            </p>
+            <br><br><br><br>
+            <hr>
+            <div class="iccons">
+                <div class="icc1"><iconify-icon icon="carbon:person" class="icon"></iconify-icon>
+                <h6>persons </h6></div>
+
+                <div class="icc1"><iconify-icon icon="la:concierge-bell" class="icon"></iconify-icon>
+                 <h6>Room service</h6> </div>
+
+                 <div class="icc1"><iconify-icon icon="fluent:bed-24-regular" class="icon"></iconify-icon> 
+                <h6>Kingsize bed</h6> </div>
+
+                <div class="icc1"><iconify-icon icon="emojione-v1:fork-and-knife-with-plate" class="icon"></iconify-icon>
+                <h6>All inclusive</h6></div> 
+
+                <div class="icc1"><iconify-icon icon="openmoji:six-oclock" class="icon"></iconify-icon>
+                <h6>460 sqft room</h6></div>
+                
+                <div class="icc1"><iconify-icon icon="fa-solid:tv" class="icon"></iconify-icon>
+                <h6>Tv</h6>    </div>
+         
+                
+            </div>
+            <br>
+            <hr>
+
+            <div class="tnb"> 
+                <a href="booknow.html" class="ancor"> <button>BOOK</button></a>
+                <h5>$129,00 <br>per night</h5>
+            </div>
+
+
+        </div>
+        
+
+
+        <div class="ab1">
+            <h4>Presidential Suit</h4><br>
+            <p>Newly refurnished luxury accommodation with finest quilty linen & 
+                quality decor. Air conditioning Electric Blankets. Ironing Boarders, mini bar, flat screen
+                &Free inhouse movies, wife and houskeeping by request
+            </p>
+            <br><br><br><br>
+            <hr>
+            <div class="iccons">
+                <div class="icc1"><iconify-icon icon="carbon:person" class="icon"></iconify-icon>
+                <h6>persons </h6></div>
+
+                <div class="icc1"><iconify-icon icon="la:concierge-bell" class="icon"></iconify-icon>
+                 <h6>Room service</h6> </div>
+
+                 <div class="icc1"><iconify-icon icon="fluent:bed-24-regular" class="icon"></iconify-icon> 
+                <h6>Kingsize bed</h6> </div>
+
+                <div class="icc1"><iconify-icon icon="emojione-v1:fork-and-knife-with-plate" class="icon"></iconify-icon>
+                <h6>All inclusive</h6></div> 
+
+                <div class="icc1"><iconify-icon icon="openmoji:six-oclock" class="icon"></iconify-icon>
+                <h6>460 sqft room</h6></div>
+                
+                <div class="icc1"><iconify-icon icon="fa-solid:tv" class="icon"></iconify-icon>
+                <h6>Tv</h6>    </div>
+         
+                
+            </div>
+            <br>
+            <hr>
+
+            <div class="tnb"> 
+                <a href="booknow.html" class="ancor"><button>BOOK</button></a>
+                <h5>$129,00 <br>per night</h5>
+            </div>
+
+
+        </div>
+        
+ 
+     
+
+        <div class="ab1">
+            <img src="./images/hall1.jpg" >
+        </div>
+        
+    </div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ---------------------------end----------------------- -->
+
+
+<section class="gris"  id="grid">
+    <div class="abaaga-ween">        <h2>ROOMS ACCOMMODATION</h2> <br>
+        <P>Designed privileged private place where you'll feel right at home</P> </div>
+    <div class="aabo">
+
+        <div class="aabo-contain">
+            <div class="aabo1">
+                <img src="./images/room1.jpeg" >
+                <h3>Rooms</h3>
+                <p>$50 <br>per night</p>
+                <a href="booknow.html" class="ancor"> <button> BOOK NOW</button></a>
+            </div>
+            <div class="aabo1">
+                <img src="./images/childroom2.webp" >
+                <h3>childroom</h3>
+                <p>$50 <br>per night</p>
+                <a href="booknow.html" class="ancor">  <button> BOOK NOW</button></a>
+            </div>
+            <div class="aabo1">
+                <img src="./images/rest room.jpeg" >
+                <h3>Restroom</h3>
+                <p>$50 <br>per night</p>
+                <a href="booknow.html" class="ancor"> <button> BOOK NOW</button> </a>
+            </div>
+
+            <div class="aabo1">
+                <img src="./images/simple library.webp" >
+                <h3>library</h3>
+                <p>$50 <br>per night</p>
+                <a href="booknow.html" class="ancor"> <button> BOOK NOW</button></a>
+            </div>
+
+
+            <div class="aabo1">
+                <img src="./images/swimmingpool.jpeg" >
+                <h3>Restroom</h3>
+                <p>$50 <br>per night</p>
+                <a href="booknow.html" class="ancor"> <button> BOOK NOW</button></a>
+            </div>
+
+
+            <div class="aabo1">
+                <img src="./images/gym.jpg" >
+                <h3>Restroom</h3>
+                <p>$50 <br>per night</p>
+                <a href="booknow.html" class="ancor"> <button> BOOK NOW</button></a>
+            </div>
+
+
+        </div>
+    </div>
+  
+</section>
+  <!-- qeebta footerka -->
+  <div class="footer">
+    <div class="fo1">
+
+    <div class="navigation">
+        <h3>NAVIGATIONS</h3>
+        <ul>
+            
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Hotels</a></li>
+            <li><a href="#">Reveiw</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="members">
+        <h3>FOR MEMBERS</h3>
+        <ul>
+            <li>Hapipa</li>
+            <li>Leila</li>
+            <li>Nasteha</li>
+        </ul>
+    </div>
+    <div class="folow">
+        <h3>FOLLOW US</h3>
+        <ul>
+        <div class="icons">
+            
+       <li> <a href="#"><iconify-icon icon="fa-brands:twitter-square" class="icon"></iconify-icon>  TWITTER</a></li>
+       <li> <a href="#"><iconify-icon icon="bxl:facebook-circle" class="icon"></iconify-icon>FACEBOOK</a></li>
+       <li><a href="#"><iconify-icon icon="fa6-brands:square-instagram" class="icon"></iconify-icon>INSTAGRAM</a></li>
+    </ul>
+    </div>
+    <div class="location">
+        <h3>OUR LOCATION</h3>
+        <a href="#">Mogadishu</a>
+        <a href="">Bosaso</a>
+        <a href="#">Beydhabo</a>
+    </div>
+    
+    </div>
+    <p>Copyright@HLN</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

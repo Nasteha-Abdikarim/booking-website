@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.reviews {
+  font-size: 22px;
+  text-align: center;
+}
+.reviews h1 {
+ margin-top: 15px;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+span {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(214, 89, 47);
+}
+.Comments img {
+  width: 100px;
+  height: 100px;
+}
+.com1 {
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+.com1-text p{
+padding-bottom: 20px;
+
+}
+.com1-text {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.rev-icon {
+  font-size: 15px;
+  color: rgb(189, 189, 23);
+  /* padding-left: 40px; */
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.profile p {
+  font-size: 20px;
+  text-align: justify;
+  line-height: 25px;
+  padding-left: 60px;
+}
+.profile {
+  margin-left: 20px;
+  box-sizing: border-box;
+}
+.Comments {
+  display: grid;
+  row-gap: 60px;
+  column-gap: 3px;
+  justify-content: center;
+  margin-top: 20px;
+
+  grid-template-columns: 430px 430px 430px;
+  grid-template-rows: 320px 320px;
+
+  margin-right: 20px;
+  margin-left: 10px;
+  padding: 10px;
+}
+.profile h6 {
+  color: gray;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.profile {
+  box-shadow: 1px 1px 6px gray;
+
+  /* padding-left: 30px; */
+}
+@media screen and (max-width:600px){
+  .Comments{
+    display: grid;
+    grid-template-columns: 400px;
+  }
+}

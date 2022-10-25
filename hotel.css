@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hotels {
+  background-image: url("./images/LA\ FLORA\ \(1\).jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+}
+
+.hotels h1 {
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 250px;
+}
+
+/* QEYBTA KOWAAD */
+
+.hotel-list {
+  margin-top: 40px;
+  display: flex;
+  box-shadow: 1px 1px 5px rgb(192, 186, 186);
+  width: 900px;
+  height: 370px;
+  margin-left: 60px;
+}
+
+.hotel-text {
+  margin-left: 30px;
+}
+
+.location-icon {
+  display: flex;
+}
+
+.location-icon P {
+  padding-left: 10px;
+}
+
+.hotel-text h4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  color: rgb(248, 154, 46);
+}
+
+.hotel-text h4:hover {
+  color: rgb(59, 45, 26);
+}
+
+.hotel-list img {
+  width: 300px;
+  height: 260px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.location {
+  margin-right: 2px;
+}
+
+.middle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.top {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.top button {
+  margin-left: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+  border: 0;
+  background-color: rgb(170, 141, 105);
+  box-shadow: 1px 1px 5px rgb(39, 37, 37);
+}
+
+.rate {
+  margin-left: 140px;
+}
+
+.last {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.people {
+  margin-left: 20px;
+}
+.lacag {
+  font-weight: bold;
+  margin-left: 130px;
+}
+
+.qeyb {
+  display: flex;
+}
+
+.buu button {
+  width: 100px;
+  height: 40px;
+  margin-left: 420px;
+  background-color: rgb(170, 141, 105);
+  border: 0;
+  margin-top: 20px;
+  box-shadow: 1px 1px 5px rgb(39, 37, 37);
+}
+
+a:hover {
+  color: white;
+}
+
+.side-txt {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.big {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  column-gap: 530px;
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
+
+.buu button:hover {
+  color: white;
+  font-weight: bold;
+}
+
+button {
+  font-weight: bold;
+}
+
+.numbers {
+  display: grid;
+  grid-template-columns: 200px;
+  margin-left: 270px;
+}
+
+.side-txt2 {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 600px) {
+  .big {
+    display: grid;
+    grid-template-columns: 100px;
+    column-gap: 530px;
+    margin-bottom: 40px;
+  }
+  .hotel-text {
+    margin-left: 20px;
+    height: 400px;
+  }
+
+  .hotel-list {
+    display: block;
+    width: 480px;
+    height: 660px;
+    margin-left: 30px;
+    margin-top: 50px;
+  }
+  .buu button {
+    margin-left: 320px;
+  }
+
+  .rate {
+    margin-left: 90px;
+  }
+  .hotels {
+    width: 100%;
+    height: 150px;
+  }
+
+  .hotels h1 {
+    font-size: 90px;
+    padding-top: 20px;
+  }
+}
